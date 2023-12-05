@@ -1,0 +1,51 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1e1f25;
+}
+
+:root {
+    --font-family: 'Karla', sans-serif;
+    --body-bg: #1E1F25;
+    --btn-bg: #000;
+    --btn-color: #cbcbcb;
+    --btn-color-hover: #fff;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background: #000;
+    color: #cbcbcb;
+    max-width: 80%;
+   /* margin: 50% auto;
+    display: block;*/
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.with-border {
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;;
+}
+.with-conic-gradient {
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red)1;
+}
+
+.button:hover {
+    color: #fff;
+    width: 210px;
+    height: 60px;
+    border-image: conic-gradient(red, magenta, blue, aqua, lime, yellow, red)1;
+}
+
